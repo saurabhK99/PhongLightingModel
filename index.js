@@ -9,7 +9,8 @@ const execFile = child_process.execFile
 app.use(express.static(path.join(path.resolve(), 'public')))
 
 app.get('/simulation', (req, res) => {
-    execFile('./a.out')
+    execFile(path.resolve(path.resolve(), 'a.out'))
+    console.log(path.resolve(path.resolve(), 'a.out'))
 })
 
 app.get('*', (req, res) => {
