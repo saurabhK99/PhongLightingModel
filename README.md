@@ -1,6 +1,9 @@
 # PHONG LIGHTING MODEL USING OPENGL
 ---
 
+[Goto Website](https://phongmodel.herokuapp.com/)
+---
+
 ## Description
 Simulation of Phong Lighting Model with directional light using OpenGL in C++.  
 
@@ -50,7 +53,8 @@ For an image to render on the screen, it must go through stages of **rendering p
 
     <img src="images/image1.png" width = "35%">
 
-    `diffuse= light color * diffuse intensity * diffuse factor`
+    `diffuse= light color * diffuse intensity * diffuse factor`  
+
     `fragment color = object color * (ambient + diffuse)`
 
 * **Specular Lighting**
@@ -58,7 +62,8 @@ For an image to render on the screen, it must go through stages of **rendering p
 
     <img src="images/image2.png" width = "35%">
 
-    `specular = light color * specular intensity * specular factor`
+    `specular = light color * specular intensity * specular factor`  
+
     `fragment color = object color * (ambient + diffuse + specualar)`
 
 ### Technology 
