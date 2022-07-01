@@ -7,6 +7,8 @@
 ## Description
 Simulation of Phong Lighting Model with directional light using OpenGL in C++.  
 
+https://user-images.githubusercontent.com/77184346/176934260-0a90fdae-dc5f-4848-9c82-75256164fed0.mov
+
 ### What is OpenGL?
 OpenGL is a cross-platform open source graphics API for rendering 2D/3D graphics.
 It uses GPU for rendering an image onto the screen. It is vendor specific i.e. the implenentation of
